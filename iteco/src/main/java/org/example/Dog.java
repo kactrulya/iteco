@@ -8,7 +8,9 @@ public class Dog extends Animal {
     }
     @Override
     public void test(int count) {
+        //позволяет присвоить переменной имя, которая имеет поле protected
         setName("Бобик");
+        //getName позволяет обратиться к этой переменной
         System.out.println(getName() + " Сказала Мяу " + count + " раза" + " Это " + gender);
     }
 
